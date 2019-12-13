@@ -1,0 +1,33 @@
+@import "header.css" screen;
+@import "main.css" screen;
+@import "footer.css" screen;
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.img {
+  display: block;
+  min-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+}

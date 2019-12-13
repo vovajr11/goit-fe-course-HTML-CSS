@@ -1,0 +1,36 @@
+.page-nav {
+  padding: 38px 0;
+}
+
+.site-navigation {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  list-style: none;
+  width: 905px;
+  text-align: center;
+}
+
+.site-navigation li {
+  display: inline-block;
+}
+
+.site-navigation li:not(:last-child) {
+  margin-right: 76px;
+}
+
+.site-navigation a {
+  display: block;
+  font-weight: 700;
+  color: #626262;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 16px;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+  color: #e84545;
+}

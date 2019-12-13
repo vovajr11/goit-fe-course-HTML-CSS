@@ -1,0 +1,15 @@
+.footer {
+  width: 160px;
+  padding-bottom: 70px;
+  margin: 0 auto;
+}
+.button {
+  border: 1px solid #b4ad9e;
+  width: 160px;
+  height: 60px;
+  color: #626262;
+  font-size: 20px;
+  line-height: 24px;
+  background: transparent;
+  list-style: none;
+}

@@ -1,0 +1,124 @@
+.products {
+  text-align: center;
+}
+
+.header-logo {
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  line-height: 32px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #515151;
+}
+.header-logo::after {
+  display: block;
+  width: 164px;
+  height: 7px;
+  background-color: #1abc9c;
+  content: "";
+  margin: 0 auto;
+  margin-top: 32px;
+}
+
+.products-list {
+  margin: 0 auto;
+  padding: 0;
+  padding-bottom: 105px;
+  text-decoration: none;
+}
+
+.products-list-item {
+  float: left;
+  margin-right: 30px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.products-list-item:nth-child(n + 5) {
+  padding-top: 30px;
+}
+.products-list li:nth-child(4n + 4) {
+  margin-right: 0;
+}
+
+.product-list-descr {
+  text-transform: uppercase;
+  margin-top: -18px;
+}
+
+.product-name,
+.product-price {
+  float: left;
+  font-size: 18px;
+  color: #fff;
+  padding: 7px 0px;
+  font-weight: 600;
+}
+
+.product-name {
+  width: 205px;
+  background-color: #323232;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.product-price {
+  width: 50px;
+  background-color: #8c8c8c;
+  text-align: center;
+}
+
+.products-list li:hover .product-name,
+.products-list li:focus .product-name {
+  background-color: #1abc9c;
+}
+.products-list li:hover .product-price,
+.products-list li:focus .product-price {
+  background-color: #7fd9c7;
+}
+
+/* ----------------Блок 2---------------- */
+.news {
+  text-align: center;
+}
+
+.news-headline {
+  font-weight: 600;
+  text-align: left;
+  font-size: 18px;
+  color: #555252;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 15px;
+  line-height: 26px;
+  margin-bottom: 15px;
+  width: 350px;
+}
+
+.news-headline::after {
+  display: block;
+  width: 136px;
+  height: 3px;
+  background-color: #1abc9c;
+  content: "";
+  margin-top: 15px;
+}
+.news-text {
+  font-family: "Open Sans", sans-serif;
+  width: 350px;
+  white-space: normal;
+  text-align: left;
+  font-size: 14px;
+  color: #555252;
+  line-height: 26px;
+  margin-bottom: 19px;
+}
+
+.button {
+  width: 160px;
+  height: 51px;
+  margin-bottom: 81px;
+  background: #4ec6ab;
+  border-radius: 3px;
+  border: 0px;
+  float: left;
+}
